@@ -320,7 +320,7 @@ export default function Index() {
                   <Icon name="MapPin" size={24} className="text-primary" />
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">Адрес</h3>
-                <p className="text-muted-foreground">г. Москва, ул. Примерная, д. 123</p>
+                <p className="text-muted-foreground">г. Новосибирск, ул. Красный проспект, д. 47</p>
               </Card>
             </div>
 
@@ -426,7 +426,7 @@ export default function Index() {
               <ul className="space-y-2 text-sm text-gray-400">
                 <li>+7 (800) 123-45-67</li>
                 <li>info@printmaster.ru</li>
-                <li>г. Москва, ул. Примерная, д. 123</li>
+                <li>г. Новосибирск, ул. Красный проспект, д. 47</li>
               </ul>
             </div>
           </div>
