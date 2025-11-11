@@ -141,12 +141,12 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 animate-fade-in">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                Полиграфия
+                Печать от 50 штук
                 <br />
-                высшего качества
+                за 24 часа
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground">
-                Профессиональная печать для вашего бизнеса. От визиток до каталогов — создаем продукцию, которая работает на ваш успех.
+                Визитки, листовки, каталоги и брошюры с доставкой по Новосибирску. Бесплатная проверка макетов перед печатью.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" className="text-base">
@@ -255,13 +255,45 @@ export default function Index() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground">О нашей типографии</h2>
-              <p className="text-lg text-muted-foreground">
-                Более 15 лет мы предоставляем высококачественные полиграфические услуги для бизнеса в регионе. Наша типография оснащена современным европейским оборудованием, которое позволяет выполнять заказы любой сложности.
-              </p>
-              <p className="text-lg text-muted-foreground">
-                Мы гордимся индивидуальным подходом к каждому клиенту и гарантируем точное соблюдение сроков. От визиток до многостраничных каталогов — каждый проект получает наше полное внимание.
-              </p>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground">Работаем с вашими задачами</h2>
+              <div className="space-y-4">
+                <div className="flex gap-3">
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center mt-1">
+                    <Icon name="Check" size={16} className="text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-1">Нужно срочно? Печатаем за сутки</h3>
+                    <p className="text-muted-foreground">Заказы от 50 штук выполняем за 24 часа без наценки за срочность</p>
+                  </div>
+                </div>
+                <div className="flex gap-3">
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center mt-1">
+                    <Icon name="Check" size={16} className="text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-1">Нет дизайна? Поможем бесплатно</h3>
+                    <p className="text-muted-foreground">Адаптируем ваш макет под печать или создадим простой дизайн — без доплат</p>
+                  </div>
+                </div>
+                <div className="flex gap-3">
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center mt-1">
+                    <Icon name="Check" size={16} className="text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-1">Не уверены в тираже? Начните с минимума</h3>
+                    <p className="text-muted-foreground">Напечатаем пробную партию от 50 экземпляров, чтобы оценить результат</p>
+                  </div>
+                </div>
+                <div className="flex gap-3">
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center mt-1">
+                    <Icon name="Check" size={16} className="text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-1">Бесплатная доставка по Новосибирску</h3>
+                    <p className="text-muted-foreground">Привезём заказ в удобное для вас время в пределах города</p>
+                  </div>
+                </div>
+              </div>
               <div className="grid grid-cols-3 gap-6 pt-4">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">15+</div>
